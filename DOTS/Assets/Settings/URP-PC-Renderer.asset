@@ -19,9 +19,9 @@ MonoBehaviour:
     AfterOpaque: 0
     Source: 1
     NormalSamples: 1
-    Intensity: 0.5
-    DirectLightingStrength: 0.25
-    Radius: 0.25
+    Intensity: 10
+    DirectLightingStrength: 1
+    Radius: 0.6
     Samples: 0
     BlurQuality: 0
     Falloff: 100
@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de640fe3d0db1804a85f9fc8f5cadab6, type: 3}
-  m_Name: URP-HighFidelity-Renderer
+  m_Name: URP-PC-Renderer
   m_EditorClassIdentifier: 
   debugShaders:
     debugReplacementPS: {fileID: 4800000, guid: cf852408f2e174538bcd9b7fda1c5ae7,
